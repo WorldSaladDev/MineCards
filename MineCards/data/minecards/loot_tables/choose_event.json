@@ -1,0 +1,55 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:dirt",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "entity": "this",
+                "name": "Event: Kill Creepers"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:1}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:dirt",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": "Event: Kill Zombies"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:2}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:dirt",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": "Event: Kill Skeletons"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:3}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

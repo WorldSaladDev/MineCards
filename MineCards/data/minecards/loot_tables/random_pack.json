@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 12,
+          "name": "minecards:overworld_pack/epic"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 40,
+          "name": "minecards:overworld_pack/rare"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 147,
+          "name": "minecards:overworld_pack/common"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 12,
+          "name": "minecards:nether_pack/epic"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 40,
+          "name": "minecards:nether_pack/rare"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 147,
+          "name": "minecards:nether_pack/common"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 12,
+          "name": "minecards:end_pack/epic"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 40,
+          "name": "minecards:end_pack/rare"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 147,
+          "name": "minecards:end_pack/common"
+        }
+      ]
+    }
+  ]
+}

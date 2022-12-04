@@ -1,0 +1,955 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "[Set: Nether]",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:69004}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆ (Poor)",
+                  "color": "#cc8a89",
+                  "italic": false
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆ (Fair)",
+                  "color": "#72c4c4",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆☆ (Great)",
+                  "color": "#1de09f",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.2
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆☆☆ (Mint!)",
+                  "color": "#b568e8",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.08
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{}]}",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.05
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "The nether set, full of",
+                  "color": "#394039"
+                },
+                {
+                  "text": "spooky classics.",
+                  "color": "#394039"
+                },
+                {
+                  "text": "[Nether Set]",
+                  "color": "#704b4b",
+                  "italic": false
+                },
+                {
+                  "text": "[0/12]",
+                  "color": "#704b4b",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "[The Nether]",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:69004}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆ (Poor)",
+                  "color": "#cc8a89",
+                  "italic": false
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆ (Fair)",
+                  "color": "#72c4c4",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆☆ (Great)",
+                  "color": "#1de09f",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.2
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆☆☆ (Mint!)",
+                  "color": "#b568e8",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.08
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{}]}",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.05
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "A hot, desolate place, but an",
+                  "color": "#394039"
+                },
+                {
+                  "text": "important stepping stone to the end.",
+                  "color": "#394039"
+                },
+                {
+                  "text": "[Nether Set]",
+                  "color": "#704b4b",
+                  "italic": false
+                },
+                {
+                  "text": "[1/12]",
+                  "color": "#704b4b",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "[Netherrack]",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:69004}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆ (Poor)",
+                  "color": "#cc8a89",
+                  "italic": false
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆ (Fair)",
+                  "color": "#72c4c4",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆☆ (Great)",
+                  "color": "#1de09f",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.2
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆☆☆ (Mint!)",
+                  "color": "#b568e8",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.08
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{}]}",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.05
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Netherrack makes up most of the",
+                  "color": "#394039"
+                },
+                {
+                  "text": "Nether. But what's it made of?",
+                  "color": "#394039"
+                },
+                {
+                  "text": "[Nether Set]",
+                  "color": "#704b4b",
+                  "italic": false
+                },
+                {
+                  "text": "[2/12]",
+                  "color": "#704b4b",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "[Nether Wart]",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:69004}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆ (Poor)",
+                  "color": "#cc8a89",
+                  "italic": false
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆ (Fair)",
+                  "color": "#72c4c4",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆☆ (Great)",
+                  "color": "#1de09f",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.2
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆☆☆ (Mint!)",
+                  "color": "#b568e8",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.08
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{}]}",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.05
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "A well kept secret hidden deep within",
+                  "color": "#394039"
+                },
+                {
+                  "text": "nether fortresses. Used to brew potions.",
+                  "color": "#394039"
+                },
+                {
+                  "text": "[Nether Set]",
+                  "color": "#704b4b",
+                  "italic": false
+                },
+                {
+                  "text": "[3/12]",
+                  "color": "#704b4b",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "[Piglin]",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:69004}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆ (Poor)",
+                  "color": "#cc8a89",
+                  "italic": false
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆ (Fair)",
+                  "color": "#72c4c4",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆☆ (Great)",
+                  "color": "#1de09f",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.2
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆☆☆ (Mint!)",
+                  "color": "#b568e8",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.08
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{}]}",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.05
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "The only living humanoids in the nether.",
+                  "color": "#394039"
+                },
+                {
+                  "text": "They're willing to barter with gold.",
+                  "color": "#394039"
+                },
+                {
+                  "text": "[Nether Set]",
+                  "color": "#704b4b",
+                  "italic": false
+                },
+                {
+                  "text": "[6/12]",
+                  "color": "#704b4b",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "[Zombified Piglin]",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:69004}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆ (Poor)",
+                  "color": "#cc8a89",
+                  "italic": false
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆ (Fair)",
+                  "color": "#72c4c4",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆☆ (Great)",
+                  "color": "#1de09f",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.2
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆☆☆ (Mint!)",
+                  "color": "#b568e8",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.08
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{}]}",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.05
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "A peaceful but powerful species",
+                  "color": "#394039"
+                },
+                {
+                  "text": "of undead.",
+                  "color": "#394039"
+                },
+                {
+                  "text": "[Nether Set]",
+                  "color": "#704b4b",
+                  "italic": false
+                },
+                {
+                  "text": "[7/12]",
+                  "color": "#704b4b",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "[Blaze]",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:69004}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆ (Poor)",
+                  "color": "#cc8a89",
+                  "italic": false
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆ (Fair)",
+                  "color": "#72c4c4",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆☆ (Great)",
+                  "color": "#1de09f",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.2
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆☆☆ (Mint!)",
+                  "color": "#b568e8",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.08
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{}]}",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.05
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "A fiery sentinel that stands",
+                  "color": "#394039"
+                },
+                {
+                  "text": "guard over the fortress' treasure.",
+                  "color": "#394039"
+                },
+                {
+                  "text": "[Nether Set]",
+                  "color": "#704b4b",
+                  "italic": false
+                },
+                {
+                  "text": "[8/12]",
+                  "color": "#704b4b",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "[Magma Cube]",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:69004}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆ (Poor)",
+                  "color": "#cc8a89",
+                  "italic": false
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆ (Fair)",
+                  "color": "#72c4c4",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆☆ (Great)",
+                  "color": "#1de09f",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.2
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆☆☆ (Mint!)",
+                  "color": "#b568e8",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.08
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{}]}",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.05
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "A conglomerate of really hot slime.",
+                  "color": "#394039"
+                },
+                {
+                  "text": "[Nether Set]",
+                  "color": "#704b4b",
+                  "italic": false
+                },
+                {
+                  "text": "[9/12]",
+                  "color": "#704b4b",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

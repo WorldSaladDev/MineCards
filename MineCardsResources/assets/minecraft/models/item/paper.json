@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/paper"
+  },
+  "overrides":
+  [
+      {"predicate": {"custom_model_data": 66000}, "model": "item/custom/friendly_card"},
+      {"predicate": {"custom_model_data": 67000}, "model": "item/custom/card_shreds"},
+      {"predicate": {"custom_model_data": 68000}, "model": "item/custom/rules"},
+      {"predicate": {"custom_model_data": 69000}, "model": "item/custom/misprint"},
+      {"predicate": {"custom_model_data": 69001}, "model": "item/custom/overworld_card_common"},
+      {"predicate": {"custom_model_data": 69002}, "model": "item/custom/overworld_card_rare"},
+      {"predicate": {"custom_model_data": 69003}, "model": "item/custom/overworld_card_epic"},
+      {"predicate": {"custom_model_data": 69004}, "model": "item/custom/nether_card_common"},
+      {"predicate": {"custom_model_data": 69005}, "model": "item/custom/nether_card_rare"},
+      {"predicate": {"custom_model_data": 69006}, "model": "item/custom/nether_card_epic"},
+      {"predicate": {"custom_model_data": 69007}, "model": "item/custom/end_card_common"},
+      {"predicate": {"custom_model_data": 69008}, "model": "item/custom/end_card_rare"},
+      {"predicate": {"custom_model_data": 69009}, "model": "item/custom/end_card_epic"},
+      {"predicate": {"custom_model_data": 69010}, "model": "item/custom/ancient_card_common"},
+      {"predicate": {"custom_model_data": 69011}, "model": "item/custom/ancient_card_rare"},
+      {"predicate": {"custom_model_data": 69012}, "model": "item/custom/ancient_card_epic"},
+      {"predicate": {"custom_model_data": 69013}, "model": "item/custom/ancient_token"},
+      {"predicate": {"custom_model_data": 69014}, "model": "item/custom/worn_card"}
+  ]
+}

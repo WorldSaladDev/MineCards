@@ -1,0 +1,85 @@
+{
+  "parent": "minecards:root",
+  "criteria": {
+    "item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:carrot_on_a_stick"],
+            "nbt": "{CustomModelData:1890010}"
+          }
+        ]
+      }
+    },
+    "item2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:carrot_on_a_stick"],
+            "nbt": "{CustomModelData:1890011}"
+          }
+        ]
+      }
+    },
+    "item3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:carrot_on_a_stick"],
+            "nbt": "{CustomModelData:1890012}"
+          }
+        ]
+      }
+    },
+    "item4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:carrot_on_a_stick"],
+            "nbt": "{CustomModelData:1890013}"
+          }
+        ]
+      }
+    },
+    "item5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:carrot_on_a_stick"],
+            "nbt": "{CustomModelData:1890014}"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:1890010}"
+    },
+    "title": {
+      "translate": "Card Packs"
+    },
+    "description": {
+      "translate": "Card packs contain cards. Right click to open them. You can collect cards from several different sets."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "item",
+      "item2",
+      "item3",
+      "item4",
+      "item5"
+    ]
+  ]
+}

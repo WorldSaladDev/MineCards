@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:paper",
+        "nbt": "{CustomModelData:69001}"
+      },
+      "title": {
+        "translate": "\uEff8 MineCards \uEff8"
+      },
+      "description": {
+        "translate": "A datapack all about collecting and trading cards. Made by WorldSalad."
+      },
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false,
+      "background": "minecraft:textures/misc/minecards_bg.png"
+    },
+    "criteria": {
+        "crafting_table": {
+          "conditions": {
+            "items": [
+              {
+                "items": [
+                  "minecraft:crafting_table"
+                ]
+              }
+            ]
+          },
+          "trigger": "minecraft:inventory_changed"
+        }
+      },
+    "requirements": [
+        [
+          "crafting_table"
+        ]
+      ]
+  }

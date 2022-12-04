@@ -1,0 +1,37 @@
+{
+  "parent": "minecards:card_packs",
+  "criteria": {
+    "item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:carrot_on_a_stick"],
+            "nbt": "{CustomModelData:1890013}"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:1890013}"
+    },
+    "title": {
+      "translate": "End Pack"
+    },
+    "description": {
+      "translate": "The end expansion. You can find these in nether structures, or buy them in the card trader."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "item"
+    ]
+  ]
+}

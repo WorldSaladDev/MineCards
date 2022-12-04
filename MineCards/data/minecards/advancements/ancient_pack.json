@@ -1,0 +1,37 @@
+{
+  "parent": "minecards:card_packs",
+  "criteria": {
+    "item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:carrot_on_a_stick"],
+            "nbt": "{CustomModelData:1890014}"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:1890014}"
+    },
+    "title": {
+      "translate": "Ancient Pack"
+    },
+    "description": {
+      "translate": "The original set for MineCards, only a few packs are left in existence. You can find these very rarely in structures. They cannot be purchased."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "item"
+    ]
+  ]
+}

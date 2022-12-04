@@ -1,0 +1,37 @@
+{
+  "parent": "minecards:ancient_pack",
+  "criteria": {
+    "item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:paper"],
+            "nbt": "{CustomModelData:69014}"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:paper",
+      "nbt": "{CustomModelData:69014}"
+    },
+    "title": {
+      "translate": "Worn Card"
+    },
+    "description": {
+      "translate": "Many of the cards in these ancient packs are worn beyond recognition..."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "item"
+    ]
+  ]
+}

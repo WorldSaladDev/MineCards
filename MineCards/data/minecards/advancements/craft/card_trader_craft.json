@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecards:card_trader"
+        }
+      }
+    },
+    "rewards": {
+      "function": "minecards:craft/card_trader_craft"
+    }
+  }
+  

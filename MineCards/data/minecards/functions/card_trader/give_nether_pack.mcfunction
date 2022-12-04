@@ -1,0 +1,4 @@
+execute as @s[scores={minecards_coins=..149}] run title @s actionbar {"text":"Not enough Cardcoins!","italic":true,"color":"dark_red"}
+execute as @s[scores={minecards_coins=150..}] run give @s carrot_on_a_stick{display:{Name:'{"text":"Nether Pack","color":"#c46c6c","italic":false}',Lore:['{"text":"Set size: [12 Cards]","color":"#704b4b","italic":false}','{"text":"Contains 3 cards","color":"gray","italic":false}']},CustomModelData:1890012} 1
+execute as @s[scores={minecards_coins=150..}] run scoreboard players remove @s minecards_coins 150
+execute as @s run function minecards:card_trader/buy_packs

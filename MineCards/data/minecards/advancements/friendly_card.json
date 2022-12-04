@@ -1,0 +1,37 @@
+{
+  "parent": "minecards:root",
+  "criteria": {
+    "item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:paper"],
+            "nbt": "{CustomModelData:66000}"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:paper",
+      "nbt": "{CustomModelData:66000}"
+    },
+    "title": {
+      "translate": "Friendly Card"
+    },
+    "description": {
+      "translate": "Thank you to the BuddyCards mod by wildcard_games on Curseforge for inspiring me to make this <3"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "item"
+    ]
+  ]
+}

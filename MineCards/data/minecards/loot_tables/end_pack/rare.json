@@ -1,0 +1,487 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "[End Crystal]",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:69008}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆ (Poor)",
+                  "color": "#cc8a89",
+                  "italic": false
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆ (Fair)",
+                  "color": "#72c4c4",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆☆ (Great)",
+                  "color": "#1de09f",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.2
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆☆☆ (Mint!)",
+                  "color": "#b568e8",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.08
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{}]}",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.05
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "The end crystals cast healing energy",
+                  "color": "#394039"
+                },
+                {
+                  "text": "harnessed from ghast tears on the dragon.",
+                  "color": "#394039"
+                },
+                {
+                  "text": "[End Set]",
+                  "color": "#6e6b40",
+                  "italic": false
+                },
+                {
+                  "text": "[5/12]",
+                  "color": "#6e6b40",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "[Eye of Ender]",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:69008}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆ (Poor)",
+                  "color": "#cc8a89",
+                  "italic": false
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆ (Fair)",
+                  "color": "#72c4c4",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆☆ (Great)",
+                  "color": "#1de09f",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.2
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆☆☆ (Mint!)",
+                  "color": "#b568e8",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.08
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{}]}",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.05
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "A peculiar lodestone used to",
+                  "color": "#394039"
+                },
+                {
+                  "text": "locate the stronghold.",
+                  "color": "#394039"
+                },
+                {
+                  "text": "[End Set]",
+                  "color": "#6e6b40",
+                  "italic": false
+                },
+                {
+                  "text": "[6/12]",
+                  "color": "#6e6b40",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "[Elytra]",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:69008}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆ (Poor)",
+                  "color": "#cc8a89",
+                  "italic": false
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆ (Fair)",
+                  "color": "#72c4c4",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆☆ (Great)",
+                  "color": "#1de09f",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.2
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆☆☆ (Mint!)",
+                  "color": "#b568e8",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.08
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{}]}",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.05
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "These wing-casings of ancient arthropods",
+                  "color": "#394039"
+                },
+                {
+                  "text": "can be used to glide around.",
+                  "color": "#394039"
+                },
+                {
+                  "text": "[End Set]",
+                  "color": "#6e6b40",
+                  "italic": false
+                },
+                {
+                  "text": "[7/12]",
+                  "color": "#6e6b40",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "[Shulker]",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:69008}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆ (Poor)",
+                  "color": "#cc8a89",
+                  "italic": false
+                }
+              ],
+              "replace": true
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆ (Fair)",
+                  "color": "#72c4c4",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.7
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆☆ (Great)",
+                  "color": "#1de09f",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.2
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "Quality: ☆☆☆☆ (Mint!)",
+                  "color": "#b568e8",
+                  "italic": false
+                }
+              ],
+              "replace": true,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.08
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{}]}",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.05
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "At first glance, a block. Another,",
+                  "color": "#394039"
+                },
+                {
+                  "text": "and you're floating around the air.",
+                  "color": "#394039"
+                },
+                {
+                  "text": "[End Set]",
+                  "color": "#6e6b40",
+                  "italic": false
+                },
+                {
+                  "text": "[11/12]",
+                  "color": "#6e6b40",
+                  "italic": false
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

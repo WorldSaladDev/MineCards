@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "C": {
+        "item": "minecraft:copper_ingot"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "H": {
+        "item": "minecraft:rabbit_hide"
+      },
+      "R": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "pattern": [
+      "CSC",
+      "CHC",
+      "CRC"
+    ],
+    "result": {
+      "item": "minecraft:knowledge_book"
+    }
+  }

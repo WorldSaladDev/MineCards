@@ -1,0 +1,31 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/trader_recipe.png",
+            "height": 42,
+            "ascent": 42,
+            "chars": [
+                "\uEaf0"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/card.png",
+            "height": 7,
+            "ascent": 7,
+            "chars": [
+                "\uEff8"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/coin.png",
+            "height": 7,
+            "ascent": 7,
+            "chars": [
+                "\uEff9"
+            ]
+        }
+    ]
+}

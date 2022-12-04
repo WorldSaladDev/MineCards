@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 12,
+          "name": "minecards:nether_pack/epic"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 40,
+          "name": "minecards:nether_pack/rare"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 147,
+          "name": "minecards:nether_pack/common"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "minecards:misc"
+        }
+      ]
+    }
+  ]
+}

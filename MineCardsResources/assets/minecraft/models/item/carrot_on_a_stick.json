@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "minecraft:item/carrot_on_a_stick"
+  },
+  "overrides":
+  [
+      {"predicate": {"custom_model_data": 1890001}, "model": "item/custom/card_trader"},
+      {"predicate": {"custom_model_data": 1890010}, "model": "item/custom/random_card_box"},
+      {"predicate": {"custom_model_data": 1890011}, "model": "item/custom/overworld_card_box"},
+      {"predicate": {"custom_model_data": 1890012}, "model": "item/custom/nether_card_box"},
+      {"predicate": {"custom_model_data": 1890013}, "model": "item/custom/end_card_box"},
+      {"predicate": {"custom_model_data": 1890014}, "model": "item/custom/ancient_card_box"}
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 12,
+          "name": "minecards:ancient_pack/epic"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 40,
+          "name": "minecards:ancient_pack/rare"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 100,
+          "name": "minecards:ancient_pack/common"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "minecards:misc"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 147,
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "text": "[Worn Card]",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:69014}"
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "The card is so worn that you",
+                  "color": "#394039"
+                },
+                {
+                  "text": "can't even tell what it is.",
+                  "color": "#394039"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
