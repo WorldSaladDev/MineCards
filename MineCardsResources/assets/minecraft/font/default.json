@@ -11,6 +11,24 @@
         },
         {
             "type": "bitmap",
+            "file": "minecraft:font/terra_trader_recipe.png",
+            "height": 42,
+            "ascent": 42,
+            "chars": [
+                "\uEaf1"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/small_space.png",
+            "height": 7,
+            "ascent": 1,
+            "chars": [
+                "\uEff7"
+            ]
+        },
+        {
+            "type": "bitmap",
             "file": "minecraft:font/card.png",
             "height": 7,
             "ascent": 7,
